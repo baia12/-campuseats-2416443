@@ -2,7 +2,7 @@ function VendorCard() {
   const vendor = {
     name: "Mahallah Usman",
     location: "Usman Hall",
-    OpeningHours: "10:00 AM - 10:00 PM",
+    OpeningHours: "10:30 AM - 10:00 PM",
     IsOpen: false,
   };
   return (
