@@ -9,6 +9,13 @@
   1. "put Fragment <>...</>"
 - One thing the AI got wrong and how I fixed it
 
+## Week 2
+
+- Tool(s):
+- What I asked for:
+- What I kept, changed or rejected, and why:
+- One thing the AI got wrong and how I fixed it:
+
 ## Reference
 
 - https://www.w3schools.com/html/html_lists.asp
