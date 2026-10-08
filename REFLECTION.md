@@ -10,4 +10,4 @@
    Fragment let us group many elements **without adding extra HTML element**. We use it instead of `<div>` when we don't need another container.
 
 4. Name one benefit of splitting the UI into small components.
-   It make the code **easier to manage and reuse**.
+   It make the code **easier to manage and reussee**.
