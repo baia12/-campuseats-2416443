@@ -1,17 +1,14 @@
-import MenuItemCard from "./MenuItemCard";
-
+import MenuItemCard from "./MenuItemCard.jsx";
 function MenuList({ items, onAdd }) {
+  if (items.length === 0) {
+    return <p className="muted">No items on this menu yet.</p>;
+  }
   return (
-    <div className="menu-list">
-      {items.length === 0 ? (
-        <p>No items on this menu yet.</p>
-      ) : (
-        items.map((item) => (
-          <MenuItemCard key={item.id} item={item} onAdd={onAdd} />
-        ))
-      )}
+    <div className="grid">
+      {items.map((item) => (
+        <MenuItemCard key={item.id} item={item} onAdd={onAdd} />
+      ))}
     </div>
   );
 }
-
 export default MenuList;

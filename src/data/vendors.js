@@ -1,7 +1,7 @@
 const vendors = [
   {
     id: "kafe-ali",
-    name: "Kafe Mahallah Ali",
+    name: "Kafe Mahallah Abu",
     location: "Mahallah Ali, Block C",
     openHours: "7:00 am - 10:00 pm",
     isOpen: true,

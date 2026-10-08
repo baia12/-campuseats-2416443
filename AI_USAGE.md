@@ -13,7 +13,9 @@
 
 - Tool(s):
 - What I asked for:
+  1. "give list of vendor and dish in vendor.js i upload the file"
 - What I kept, changed or rejected, and why:
+  1. "I kept the vendor and change dish "
 - One thing the AI got wrong and how I fixed it:
 
 ## Reference
