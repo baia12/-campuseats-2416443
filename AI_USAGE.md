@@ -5,7 +5,7 @@
 - Tool(s):Chatgpt
 - What I asked for:
   1. "how to fix JSX expressions must have one parent element."
-- What I kept, changed or rejected, and why:
+- What I kept, changed or rejecteedd, and why:
   1. "put Fragment <>...</>"
 - One thing the AI got wrong and how I fixed it
 
