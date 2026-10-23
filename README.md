@@ -1,16 +1,39 @@
-# React + Vite
+# CampusEats
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CampusEats is a React-based food ordering application designed for university students. Users can browse food vendors, explore menus, add items to their cart, manage quantities, mark favourite dishes, and place orders.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Vendor Selection:** Browse available food vendors.
+- **Menu Display:** View dish names, descriptions, categories, prices, and availability.
+- **Add to Cart:** Add available dishes to the shopping cart.
+- **Cart Management:** Increase or decrease item quantities, remove items, and calculate the total price.
+- **Checkout:** Enter customer details and select a pickup time to place an order.
+- **Favourite Items:** Mark and unmark favourite dishes.
+- **Favourites Only:** Filter the selected vendor's menu to show only favourite dishes.
+- **Loading and Error Handling:** Display loading and error messages when fetching vendor data.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (JSX)
+- Vite
+- CSS
+- Fetch API
+- React Hooks (`useState` and `useEffect`)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Install [Node.js](https://nodejs.org/) and npm before running the project.
+
+### Installation
+
+1. Clone or download this repository.
+2. Open the project folder in your terminal.
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
