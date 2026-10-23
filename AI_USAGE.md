@@ -18,6 +18,23 @@
   1. "I kept the vendor and change dish "
 - One thing the AI got wrong and how I fixed it:
 
+**## Week 3**
+
+- Tool(s): ChatGPT
+- What I asked for:
+  1. "Explain how `fetch()` and `useEffect()` work in React and how they are used to load vendor data from `/api/vendors.json`."
+  2. "Explain how the different components in the cart page work together."
+  3. "Help me fix the blank white screen and the error in the browser console."
+  4. "Help me fix the CSS because the cart items are not styled correctly."
+
+- What I kept, changed or rejected, and why:
+  1. "I used the explanations to understand how `fetch()` retrieves vendor data, how `useEffect()` runs the fetching code, and how loading and error states are handled."
+  2. "I used the corrected `CartPage.jsx` and `CartItem.jsx` code to make the cart display items, update quantities, remove items, and calculate the total price."
+  3. "I changed the CSS class names in `CartItem.jsx` to match my existing stylesheet, such as `.cart-line`, `.cart-name`, `.qty`, and `.line-total`, so the cart items would display with the intended styling."
+
+- One thing the AI got wrong and how I fixed it:
+  1. "The AI initially provided cart item code with CSS class names that did not match my existing stylesheet. I fixed this by changing the JSX class names to match the existing CSS selectors."
+
 ## Reference
 
 - https://www.w3schools.com/html/html_lists.asp
