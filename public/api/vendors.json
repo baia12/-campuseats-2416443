@@ -1,0 +1,429 @@
+[
+  {
+    "id": "kafe-2416443",
+    "name": "Dinie Caffe",
+    "location": "Mahallah Ali, Block C",
+    "openHours": "7:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2416443-1",
+        "name": "Keropok Lekor",
+        "description": "Fried fish cracker sticks served with spicy sweet chili sauce",
+        "price": 4.0,
+        "category": "Snack",
+        "available": true
+      },
+      {
+        "id": "2416443-2",
+        "name": "Nasi Lemak Ikan",
+        "description": "Fragrant coconut rice served with fried fish, sambal, boiled egg, and cucumber",
+        "price": 7.5,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2416443-3",
+        "name": "Nasi Dagang",
+        "description": "Steamed red rice in coconut milk served with spicy fish curry (Gulai Ikan Tongkol) and pickled vegetables",
+        "price": 9.5,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2416443-4",
+        "name": "Laksam Kelantan",
+        "description": "Flat rice noodle rolls served with rich creamy coconut fish gravy and fresh herbs",
+        "price": 6.0,
+        "category": "Noodles",
+        "available": true
+      },
+      {
+        "id": "2416443-5",
+        "name": "Teh Tarik Ice",
+        "description": "Classic Malaysian iced pulled milk tea",
+        "price": 2.5,
+        "category": "Beverages",
+        "available": true
+      },
+      {
+        "id": "2416443-6",
+        "name": "Nasi Goreng Kampung",
+        "description": "Traditional village-style fried rice with anchovies, water spinach, and fried egg",
+        "price": 7.0,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2416443-7",
+        "name": "Mee Goreng Mamak",
+        "description": "Stir-fried yellow noodles with tofu, bean sprouts, eggs, and sweet-spicy sauce",
+        "price": 6.5,
+        "category": "Noodles",
+        "available": true
+      },
+      {
+        "id": "2416443-8",
+        "name": "Mee Hoon Soup",
+        "description": "Clear chicken broth served with rice vermicelli noodles, chicken shreds, and fried shallots",
+        "price": 6.0,
+        "category": "Noodles",
+        "available": true
+      },
+      {
+        "id": "2416443-9",
+        "name": "Roti Canai dengan Kuah Dhal",
+        "description": "Crispy layered flatbread served with lentil curry and sambal",
+        "price": 2.0,
+        "category": "Breakfast",
+        "available": true
+      },
+      {
+        "id": "2416443-10",
+        "name": "Cucur Udang",
+        "description": "Crispy prawn fritters served with peanut dip",
+        "price": 4.5,
+        "category": "Snack",
+        "available": true
+      },
+      {
+        "id": "2416443-11",
+        "name": "Chicken Chop Krazy",
+        "description": "Deep-fried breaded chicken chop served with black pepper sauce, fries, and coleslaw",
+        "price": 13.5,
+        "category": "Western",
+        "available": true
+      },
+      {
+        "id": "2416443-12",
+        "name": "Kuih Ketayap",
+        "description": "Pandan crepe filled with grated coconut and palm sugar (3 pieces)",
+        "price": 3.0,
+        "category": "Dessert",
+        "available": true
+      },
+      {
+        "id": "2416443-13",
+        "name": "Ais Kacang (ABC)",
+        "description": "Shaved ice topped with sweet corn, red beans, grass jelly, syrup, and condensed milk",
+        "price": 4.5,
+        "category": "Dessert",
+        "available": true
+      },
+      {
+        "id": "2416443-14",
+        "name": "Milo Ais",
+        "description": "Iced chocolate malt drink topped with condensed milk",
+        "price": 3.0,
+        "category": "Beverages",
+        "available": true
+      },
+      {
+        "id": "2416443-15",
+        "name": "Sirap Bandung Ice",
+        "description": "Chilled rose syrup drink mixed with condensed milk",
+        "price": 2.5,
+        "category": "Beverages",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "2418793-Faizul-Cafe",
+    "name": "Faizul Cafe",
+    "location": "Mahallah Siddiq, Block A",
+    "openHours": "8:00 am - 11:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2418793-d1",
+        "name": "Teh Hijau",
+        "price": 3.0,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2418793-d2",
+        "name": "Teh Bunga",
+        "price": 2.5,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2418793-d3",
+        "name": "Teh Tarik",
+        "price": 2.5,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2418793-d4",
+        "name": "Teh O Ais",
+        "price": 1.8,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2418793-d5",
+        "name": "Matcha Strawberry",
+        "price": 7.0,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2418793-d6",
+        "name": "Keladi Latte",
+        "price": 6.5,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2418793-d7",
+        "name": "Spanish Latte",
+        "price": 7.0,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2418793-d8",
+        "name": "Americano",
+        "price": 5.0,
+        "category": "Drinks",
+        "available": true
+      },
+      {
+        "id": "2418793-m1",
+        "name": "Nasi Goreng Kampung",
+        "price": 5.0,
+        "category": "Meals",
+        "available": true
+      },
+      {
+        "id": "2418793-m2",
+        "name": "Nasi Goreng Cina",
+        "price": 4.5,
+        "category": "Meals",
+        "available": true
+      },
+      {
+        "id": "2418793-m3",
+        "name": "Nasi Goreng Pattaya",
+        "price": 6.5,
+        "category": "Meals",
+        "available": true
+      },
+      {
+        "id": "2418793-m4",
+        "name": "Nasi Goreng USA",
+        "price": 8.0,
+        "category": "Meals",
+        "available": true
+      },
+      {
+        "id": "2418793-m5",
+        "name": "Nasi Goreng Kerabu",
+        "price": 6.0,
+        "category": "Meals",
+        "available": true
+      },
+      {
+        "id": "2418793-m6",
+        "name": "Nasi Kerabu",
+        "price": 6.0,
+        "category": "Meals",
+        "available": true
+      },
+
+      {
+        "id": "2418793-s2",
+        "name": "Pisang Goreng Cheese",
+        "price": 5.0,
+        "category": "Snacks",
+        "available": true
+      },
+      {
+        "id": "2418793-s3",
+        "name": "Dubai Chewy Cookies",
+        "price": 15.0,
+        "category": "Snacks",
+        "available": true
+      },
+      {
+        "id": "2418793-s4",
+        "name": "Vietnamese Spring Roll",
+        "price": 15.0,
+        "category": "Snacks",
+        "available": true
+      },
+      {
+        "id": "2418793-s5",
+        "name": "Aiskrim Malaysia",
+        "price": 0.2,
+        "category": "Snacks",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "Cafe-2416723",
+    "name": "Cafe MB Besut",
+    "location": "Mahallah Faruq, IIUM Gombak",
+    "openHours": "7:00 am - 11:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2416723-1",
+        "name": "Teh Tarik",
+        "price": 2.5,
+        "category": "Drinks",
+        "description": "Traditional Malaysian tea",
+        "available": true
+      },
+      {
+        "id": "2416723-2",
+        "name": "Nasi Lemak",
+        "price": 5.0,
+        "category": "Main Dishes",
+        "description": "Traditional Malaysian rice dish",
+        "available": true
+      },
+      {
+        "id": "2416723-3",
+        "name": "Roti Canai",
+        "price": 1.2,
+        "category": "Main Dishes",
+        "description": "Traditional Malaysian flatbread",
+        "available": true
+      },
+      {
+        "id": "2416723-4",
+        "name": "Shawarma",
+        "price": 7.5,
+        "category": "Main Dishes",
+        "description": "Arabic wrap with meat and vegetables",
+        "available": true
+      },
+      {
+        "id": "2416723-5",
+        "name": "Nasi Ayam Gepuk",
+        "price": 8.0,
+        "category": "Main Dishes",
+        "description": "Traditional Indonesian rice dish",
+        "available": true
+      },
+      {
+        "id": "2416723-6",
+        "name": "Nasi Kandar",
+        "price": 6.5,
+        "category": "Main Dishes",
+        "description": "Top tasty Malaysian rice dish",
+        "available": true
+      },
+      {
+        "id": "2416723-7",
+        "name": "Mee Tarik",
+        "price": 7.0,
+        "category": "Main Dishes",
+        "description": "Famous Chinese noodle dish",
+        "available": true
+      },
+      {
+        "id": "2416723-8",
+        "name": "Jus Mangga",
+        "price": 4.0,
+        "category": "Drinks",
+        "description": "Fresh mango juice",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "2417219-pokpan",
+    "name": "Pokpan's Kitchen",
+    "location": "Mahallah Zubair, Block J,",
+    "openHours": "9:00 AM - 10:00 PM",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2417219-1",
+        "name": "Nasi Kerabu Ayam Bakar",
+        "description": "Blue rice served with grilled chicken, fresh herbs, sambal and budu.",
+        "price": 10,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2417219-2",
+        "name": "Nasi Berlauk Gulai Ikan",
+        "description": "White rice served with Kelantan-style fish curry.",
+        "price": 7,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2417219-3",
+        "name": "Nasi Tumpang",
+        "description": "Traditional layered rice wrapped in banana leaves with assorted fillings.",
+        "price": 6,
+        "category": "Rice",
+        "available": true
+      },
+      {
+        "id": "2417219-4",
+        "name": "Laksam Kelantan",
+        "description": "Soft rice noodle rolls served with creamy fish gravy and fresh vegetables.",
+        "price": 7,
+        "category": "Noodles",
+        "available": true
+      },
+      {
+        "id": "2417219-5",
+        "name": "Laksa Kelantan",
+        "description": "Rice noodles served with rich coconut fish gravy and fresh herbs.",
+        "price": 7,
+        "category": "Noodles",
+        "available": true
+      },
+      {
+        "id": "2417219-6",
+        "name": "Solok Lada",
+        "description": "Green chillies stuffed with seasoned fish and grated coconut.",
+        "price": 4,
+        "category": "Snacks",
+        "available": true
+      },
+      {
+        "id": "2417219-7",
+        "name": "Pulut Panggang",
+        "description": "Grilled glutinous rice wrapped in banana leaves with spicy coconut filling.",
+        "price": 3,
+        "category": "Snacks",
+        "available": true
+      },
+      {
+        "id": "2417219-8",
+        "name": "Akok Kelantan",
+        "description": "Traditional sweet dessert made with eggs, coconut milk and palm sugar.",
+        "price": 3.5,
+        "category": "Desserts",
+        "available": true
+      },
+      {
+        "id": "2417219-9",
+        "name": "Jala Mas",
+        "description": "Traditional golden egg-thread dessert cooked in sugar syrup.",
+        "price": 4,
+        "category": "Desserts",
+        "available": true
+      },
+      {
+        "id": "2417219-10",
+        "name": "Nekbat",
+        "description": "Traditional Kelantanese sponge dessert served in sweet syrup.",
+        "price": 4,
+        "category": "Desserts",
+        "available": true
+      }
+    ]
+  }
+]
