@@ -14,6 +14,8 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [reloadKey, setReloadKey] = useState(0);
+  const [favourites, setFavourites] = useState([]); //new feature for favoirites
+  const [favouritesOnly, setFavouritesOnly] = useState(false);
 
   // B3: Cart and selected vendor
   const [cart, setCart] = useState([]);
@@ -110,6 +112,19 @@ function App() {
     setCart([]);
     setView("done");
   }
+  // Add or remove an item from favourites
+  function handleToggleFavourite(itemId) {
+    setFavourites((prev) =>
+      prev.includes(itemId)
+        ? prev.filter((id) => id !== itemId)
+        : [...prev, itemId],
+    );
+  }
+
+  // Toggle the favourites-only filter
+  function handleToggleFavouritesOnly() {
+    setFavouritesOnly((prev) => !prev);
+  }
 
   // Decide which content to display
   let content;
@@ -173,7 +188,22 @@ function App() {
           <section>
             <h2 className="section-title">Menu: {selectedVendor.name}</h2>
 
-            <MenuList items={selectedVendor.menu} onAdd={handleAddToCart} />
+            <label>
+              <input
+                type="checkbox"
+                checked={favouritesOnly}
+                onChange={handleToggleFavouritesOnly}
+              />
+              Favourites only
+            </label>
+
+            <MenuList
+              items={selectedVendor.menu}
+              onAdd={handleAddToCart}
+              favourites={favourites}
+              onToggleFavourite={handleToggleFavourite}
+              favouritesOnly={favouritesOnly}
+            />
           </section>
         )}
       </>
