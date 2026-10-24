@@ -13,6 +13,18 @@ CampusEats is a React-based food ordering application designed for university st
 - **Favourites Only:** Filter the selected vendor's menu to show only favourite dishes.
 - **Loading and Error Handling:** Display loading and error messages when fetching vendor data.
 
+## Vendors
+
+This project includes vendor/shop data contributed by classmates:
+
+- 2 vendors from student 2418793.
+- 3 vendors from student 2416723.
+- 4 vendors from student 2417219.
+- 5 vendors from student 2410509.
+- 6 vendors from student 2411391.
+
+Credit is given to the original contributors for their respective vendor data.
+
 ## Technologies Used
 
 - React
