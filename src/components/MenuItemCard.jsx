@@ -1,9 +1,18 @@
 function MenuItemCard({ item, onAdd, isFavourite, onToggleFavourite }) {
   return (
     <article className="card menu-card">
-      <div className="thumb" aria-hidden="true">
-        {item.name.charAt(0)}
-      </div>
+      {item.image ? (
+        <img
+          className="menu-image"
+          src={item.image}
+          alt={item.name}
+          loading="lazy"
+        />
+      ) : (
+        <div className="thumb" aria-hidden="true">
+          {item.name.charAt(0)}
+        </div>
+      )}
 
       <p className="tag">{item.category}</p>
       <h3>{item.name}</h3>
