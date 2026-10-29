@@ -1,109 +1,84 @@
 import { useState } from "react";
 
-const MAHALLAHS = [
-  "Ali",
-  "Aminah",
-  "Faruq",
-  "Asiah",
-  "Bilal",
-  "Hafsa",
-  "Uthman",
-  "Zubair",
-];
-
-// Check the form values and return an object containing errors.
-function validate(values) {
-  const errors = {};
-
-  if (values.name.trim().length < 3) {
-    errors.name = "Enter your name (at least 3 characters).";
-  }
-
-  if (!values.mahallah) {
-    errors.mahallah = "Please select your mahallah.";
-  }
-
-  if (
-    !values.pickupTime ||
-    values.pickupTime < "07:00" ||
-    values.pickupTime > "22:00"
-  ) {
-    errors.pickupTime = "Choose a pickup time between 07:00 and 22:00.";
-  }
-
-  return errors;
-}
-
-function CheckoutForm({ onPlaceOrder }) {
-  const [values, setValues] = useState({
-    name: "",
-    mahallah: "", //to done
-    pickupTime: "",
-  });
-
-  const [errors, setErrors] = useState({});
-
-  function handleChange(event) {
-    const { name, value } = event.target;
-
-    setValues((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
-  }
+function CheckoutForm({ onSubmit }) {
+  const [name, setName] = useState("");
+  const [mahallah, setMahallah] = useState("Faruq");
+  const [pickupTime, setPickupTime] = useState("12:00");
+  const [error, setError] = useState("");
 
   function handleSubmit(event) {
     event.preventDefault();
 
-    const found = validate(values);
-    setErrors(found);
-
-    if (Object.keys(found).length === 0) {
-      onPlaceOrder(values);
+    if (name.trim().length < 3) {
+      setError("Please enter a name with at least 3 characters.");
+      return;
     }
+
+    if (!pickupTime) {
+      setError("Please select a pickup time.");
+      return;
+    }
+
+    setError("");
+
+    onSubmit({
+      name: name.trim(),
+      mahallah,
+      pickupTime,
+    });
   }
 
   return (
-    <form className="card form" onSubmit={handleSubmit} noValidate>
+    <form className="form" onSubmit={handleSubmit}>
       <h3>Checkout</h3>
 
-      <label htmlFor="name">Name</label>
+      <label htmlFor="customer-name">Name</label>
       <input
-        id="name"
-        name="name"
-        value={values.name}
-        onChange={handleChange}
+        id="customer-name"
+        type="text"
+        value={name}
+        onChange={(event) => setName(event.target.value)}
+        required
+        minLength={3}
       />
-      {errors.name && <p className="field-error">{errors.name}</p>}
 
       <label htmlFor="mahallah">Mahallah</label>
       <select
         id="mahallah"
-        name="mahallah"
-        value={values.mahallah}
-        onChange={handleChange}
+        value={mahallah}
+        onChange={(event) => setMahallah(event.target.value)}
       >
-        <option value="">Select…</option>
-        {MAHALLAHS.map((m) => (
-          <option key={m} value={m}>
-            {m}
+        {[
+          "Ali",
+          "Aminah",
+          "Faruq",
+          "Asiah",
+          "Bilal",
+          "Hafsa",
+          "Uthman",
+          "Zubair",
+        ].map((place) => (
+          <option key={place} value={place}>
+            {place}
           </option>
         ))}
       </select>
-      {errors.mahallah && <p className="field-error">{errors.mahallah}</p>}
 
-      <label htmlFor="pickupTime">Pickup time</label>
+      <label htmlFor="pickup-time">Pickup time</label>
       <input
-        id="pickupTime"
+        id="pickup-time"
         type="time"
-        name="pickupTime"
-        value={values.pickupTime}
-        onChange={handleChange}
+        min="07:00"
+        max="22:00"
+        value={pickupTime}
+        onChange={(event) => setPickupTime(event.target.value)}
+        required
       />
-      {errors.pickupTime && <p className="field-error">{errors.pickupTime}</p>}
 
-      <button type="submit" className="btn">
-        Place order
+      {error && <p className="field-error">{error}</p>}
+
+      <button className="btn" type="submit">
+        Place Order
       </button>
     </form>
   );

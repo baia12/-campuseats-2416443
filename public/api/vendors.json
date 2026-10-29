@@ -645,7 +645,7 @@
     "name": "Ayam Gepuk Amara",
     "location": "IIUM Centre",
     "openHours": "10:00 am - 10:00 pm",
-    "isOpen": true,
+    "isOpen": false,
     "menu": [
       {
         "id": "2411391-amara-1",

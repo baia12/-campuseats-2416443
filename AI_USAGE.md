@@ -41,6 +41,31 @@
   1. "The AI initially provided cart item code with CSS class names that did not match my existing stylesheet. I fixed this by changing the JSX class names to match the existing CSS selectors."
   2. "When adding vendor pictures, the suggested JSX used `<image>` instead of the correct `<img>` element for displaying a normal image in React. I corrected the element to `<img>` so the browser could display the vendor picture properly."
 
+## Week 4
+
+- Tool(s): ChatGPT
+
+- What I asked for:
+  1. "How do I move favourites into a Context or the cart context and add a `/favourites` page?"
+  2. "How do I update `CartProvider.jsx` to store favourite items using Context and localStorage?"
+  3. "How do I update `MenuList.jsx` so users can add and remove favourite items?"
+  4. "How do I add a 'Show favourites only' checkbox to filter the menu?"
+  5. "How do I create `FavouritesPage.jsx` to display saved favourite items?"
+  6. "How do I add the `/favourites` route in `App.jsx`?"
+  7. "How do I update `Header.jsx` to display a Favourites link and the number of favourite items?"
+  8. "Why does the page turn white when I add a favourite?"
+
+- What I kept, changed or rejected, and why:
+  1. I used the suggested Context implementation to manage favourite items across different components.
+  2. I used `localStorage` to save favourite items so they remain saved after refreshing the page.
+  3. I added favourite and remove-favourite buttons and a checkbox to filter favourite items in the menu.
+  4. I created a Favourites page to display saved items, with options to remove them or add them to the cart.
+  5. I updated the header to include a Favourites link and the favourite count.
+  6. I added the `/favourites` route using React Router and tested the feature with the existing cart functionality.
+
+- One thing the AI got wrong and how I fixed it:
+  1. Initially, ChatGPT thought the problem with the page turning white was related to CSS. I clarified that the entire page became white when adding a favourite. I then checked the browser console and reviewed the Context setup. After checking, the page worked correctly.
+
 ## Reference
 
 - https://www.w3schools.com/html/html_lists.asp

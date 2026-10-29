@@ -1,13 +1,9 @@
-function VendorCard({ vendor, isSelected, onSelect }) {
+import { Link } from "react-router";
+
+function VendorCard({ vendor }) {
   return (
-    <article className="card vendor-card">
-      <button
-        type="button"
-        className={
-          isSelected ? "card vendor-card selected" : "card vendor-card"
-        }
-        onClick={() => onSelect(vendor.id)}
-      >
+    <article className="vendor-card">
+      <Link to={`/vendor/${vendor.id}`} className="vendor-link">
         {vendor.image ? (
           <img
             className="vendor-image"
@@ -21,15 +17,18 @@ function VendorCard({ vendor, isSelected, onSelect }) {
           </div>
         )}
 
-        <div>
-          <h3>{vendor.name}</h3>
-          <p className="muted">{vendor.location}</p>
-          <p className="muted">Open: {vendor.openHours}</p>
-          <span className={vendor.isOpen ? "status open" : "status closed"}>
-            {vendor.isOpen ? "Open now" : "Closed"}
-          </span>
-        </div>
-      </button>
+        <h3>{vendor.name}</h3>
+      </Link>
+
+      <p>{vendor.location}</p>
+
+      <p>
+        Status: <strong>{vendor.isOpen ? "Open" : "Closed"}</strong>
+      </p>
+
+      <Link to={`/vendor/${vendor.id}`} className="vendor-menu-link">
+        View Menu
+      </Link>
     </article>
   );
 }
