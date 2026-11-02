@@ -53,7 +53,7 @@
   5. "How do I create `FavouritesPage.jsx` to display saved favourite items?"
   6. "How do I add the `/favourites` route in `App.jsx`?"
   7. "How do I update `Header.jsx` to display a Favourites link and the number of favourite items?"
-  8. "Why does the page turn white when I add a favourite?"
+  8. "Why does the page turn white when I add a favourite broo?"
 
 - What I kept, changed or rejected, and why:
   1. I used the suggested Context implementation to manage favourite items across different components.
